@@ -44,25 +44,25 @@ jobs:
        #   branch: buildjre8
        #   name: jre8-
 
-      - name: Get JRE17
-        uses: dawidd6/action-download-artifact@v9
-        with:
-          workflow: build.yml
-          path: app_pojavlauncher/src/main/assets/components/jre-new
-          workflow_conclusion: success
-          repo: PojavLauncherTeam/android-openjdk-build-multiarch
-          branch: buildjre17-21
-          name: jre17-pojav
+    #  - name: Get JRE17
+  #      uses: dawidd6/action-download-artifact@v9
+  #      with:
+      #    workflow: build.yml
+      #    path: app_pojavlauncher/src/main/assets/components/jre-new
+    #      workflow_conclusion: success
+      #    repo: PojavLauncherTeam/android-openjdk-build-multiarch
+      #    branch: buildjre17-21
+        #  name: jre17-pojav
 
-      - name: Get JRE21
-        uses: dawidd6/action-download-artifact@v9
-        with:
-          workflow: build.yml
-          path: app_pojavlauncher/src/main/assets/components/jre-21
-          workflow_conclusion: success
-          repo: PojavLauncherTeam/android-openjdk-build-multiarch
-          branch: buildjre17-21
-          name: jre21-pojav
+#      - name: Get JRE21
+  #      uses: dawidd6/action-download-artifact@v9
+       # with:
+     #     workflow: build.yml
+    #      path: app_pojavlauncher/src/main/assets/components/jre-21
+       #   workflow_conclusion: success
+     #     repo: PojavLauncherTeam/android-openjdk-build-multiarch
+      #    branch: buildjre17-21
+       #   name: jre21-pojav
 
       - uses: gradle/actions/setup-gradle@v4
         with:
