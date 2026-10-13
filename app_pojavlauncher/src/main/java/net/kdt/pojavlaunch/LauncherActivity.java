@@ -26,7 +26,7 @@ import com.kdt.mcgui.mcAccountSpinner;
 
 import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension;
 import net.kdt.pojavlaunch.QuartrsUIController;
-
+import net.kdt.pojavlaunch.extra.ExtraConstan;
 import net.kdt.pojavlaunch.extra.ExtraCore;
 import net.kdt.pojavlaunch.extra.ExtraListener;
 import net.kdt.pojavlaunch.fragments.MainMenuFragment;
